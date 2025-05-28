@@ -13,6 +13,11 @@
     
 }
 
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -20,8 +25,12 @@ a{
 }
 
 .list{
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:20px;
 }
 
 .laptop-item{
@@ -36,4 +45,19 @@ a{
 img{
     width: 300px;
     height: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 96vw;
+    height: 30px;
+    background-color: rgb(15, 228, 231);
+    left: 0;
+    align-items: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    border: 1px solid black;
+    border-radius: 5px;
 }
