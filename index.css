@@ -1,0 +1,39 @@
+.navigation{
+    display: flex;    
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98vw;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.list{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.laptop-item{
+    width:300px;
+    height:250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
